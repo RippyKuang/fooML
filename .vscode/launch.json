@@ -1,0 +1,15 @@
+{  
+    "version": "0.2.0",  
+    "configurations": [  
+        {  
+            "name": "debug",  
+            "type": "cuda-gdb",  
+            "request": "launch",  
+            "program": "${workspaceFolder}/build/fooml",  
+            "stopAtEntry": true,  
+            "cwd": "${workspaceFolder}",  
+            "miDebuggerPath": "/usr/local/cuda/bin/cuda-gdb"
+          
+        }  
+    ]  
+}  
